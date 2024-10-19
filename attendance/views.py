@@ -733,3 +733,4 @@ def import_attendance_from_excel(request):
         return redirect('admin_dashboard')
 
     return render(request, 'attendance/import_attendance.html')
+
